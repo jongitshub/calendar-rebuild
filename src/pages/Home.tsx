@@ -1,5 +1,5 @@
 import BookingCalendar from "../components/BookingCalendar";
-import ErrorBoundary from "../components/ErrorBoundary"; // Import ErrorBoundary
+import ErrorBoundary from "../components/ErrorBoundary";
 
 export default function Home() {
   return (
