@@ -1,0 +1,26 @@
+.calendar-container {
+    max-width: 100%;
+    overflow: auto;
+  }
+  
+  .react-calendar {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+  }
+  
+  .react-calendar__tile {
+    padding: 10px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .react-calendar__tile:hover {
+    background: rgba(0, 132, 255, 0.2); /* Light blue highlight */
+    border-radius: 5px;
+  }
+  
+  .react-calendar__tile--active {
+    background: rgba(0, 132, 255, 0.5) !important; /* Stronger highlight for selected date */
+    color: white;
+  }
+  
